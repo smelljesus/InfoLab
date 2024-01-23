@@ -1,0 +1,38 @@
+.foorer{
+    padding-bottom: 35px;
+    margin-top: auto;
+}
+
+.footer--dark{
+    background: #292929;
+}
+
+.footer--dark *{
+    color: #fff;
+}
+
+.footer--dark .foorer_container,
+.footer--dark .foorer_container_rule{
+    border-color: #fff;
+}
+
+.foorer_container{
+    padding-top: 35px;
+    border-top: solid 3px #404040;
+}
+
+.logo--footer{
+    width: 250px;
+}
+
+.foorer_container_rule{
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: solid 1px #404040;
+}
+
+@media all and(max-width: 1024px) {
+    .footer .col{
+        margin: 10px 0;
+    }
+}
